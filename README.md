@@ -1,2 +1,2 @@
-# Proyect
-This is the final Proyect, Java
+# Project
+This is the final Project, Java
