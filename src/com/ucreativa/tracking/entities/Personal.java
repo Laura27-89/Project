@@ -1,12 +1,12 @@
-package com.ucreativa.tracking;
+package com.ucreativa.tracking.entities;
 
 public class Personal extends Actividad {
 
     private String ejercicio;
     private String hogar;
 
-    public Personal(boolean realizado, int duracion, String animo, String ejercicio, String hogar) {
-        super(realizado, duracion, animo);
+    public Personal(String meta, boolean realizado, int duracion, String animo, String ejercicio, String hogar) {
+        super(meta, realizado, duracion, animo);
         this.ejercicio = ejercicio;
         this.hogar = hogar;
     }

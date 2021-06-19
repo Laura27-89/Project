@@ -1,15 +1,21 @@
-package com.ucreativa.tracking;
+package com.ucreativa.tracking.entities;
 
-public class Actividad {
+public abstract class Actividad {
 
+    private String meta;
     private boolean realizado;
     private int duracion;
     private String animo;
 
-    public Actividad(boolean realizado, int duracion, String animo) {
+    public Actividad(String meta, boolean realizado, int duracion, String animo) {
+        this.meta = meta;
         this.realizado = realizado;
         this.duracion = duracion;
         this.animo = animo;
+    }
+
+    public String getMeta() {
+        return meta;
     }
 
     public boolean isRealizado() {
