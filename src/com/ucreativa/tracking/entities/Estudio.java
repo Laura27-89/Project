@@ -5,8 +5,8 @@ public class Estudio extends Actividad {
     private String materia;
     private String tarea;
 
-    public Estudio(String meta, boolean realizado, int duracion, String animo, String materia, String tarea) {
-        super(meta, realizado, duracion, animo);
+    public Estudio(String meta, String prioridad, int duracion, String animo, String materia, String tarea) {
+        super(meta, prioridad, duracion, animo);
         this.materia = materia;
         this.tarea = tarea;
     }

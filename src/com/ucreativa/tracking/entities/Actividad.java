@@ -3,13 +3,13 @@ package com.ucreativa.tracking.entities;
 public abstract class Actividad {
 
     private String meta;
-    private boolean realizado;
+    private String prioridad;
     private int duracion;
     private String animo;
 
-    public Actividad(String meta, boolean realizado, int duracion, String animo) {
+    public Actividad(String meta, String prioridad, int duracion, String animo) {
         this.meta = meta;
-        this.realizado = realizado;
+        this.prioridad = prioridad;
         this.duracion = duracion;
         this.animo = animo;
     }
@@ -18,8 +18,8 @@ public abstract class Actividad {
         return meta;
     }
 
-    public boolean isRealizado() {
-        return realizado;
+    public String getPrioridad() {
+        return prioridad;
     }
 
     public int getDuracion() {
@@ -28,10 +28,6 @@ public abstract class Actividad {
 
     public String getAnimo() {
         return animo;
-    }
-
-    public void setRealizado(boolean realizado) {
-        this.realizado = realizado;
     }
 
     public void setDuracion(int duracion) {

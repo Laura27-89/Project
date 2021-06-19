@@ -5,8 +5,8 @@ public class Personal extends Actividad {
     private String ejercicio;
     private String hogar;
 
-    public Personal(String meta, boolean realizado, int duracion, String animo, String ejercicio, String hogar) {
-        super(meta, realizado, duracion, animo);
+    public Personal(String meta, String prioridad, int duracion, String animo, String ejercicio, String hogar) {
+        super(meta, prioridad, duracion, animo);
         this.ejercicio = ejercicio;
         this.hogar = hogar;
     }

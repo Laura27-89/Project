@@ -7,12 +7,12 @@ public class BitacoraTacking {
 
     private Actividad actividad;
     private Date fecha;
-    private String prioridad;
+    private boolean realizado;
 
-    public BitacoraTacking(Actividad actividad, Date fecha, String prioridad ) {
+    public BitacoraTacking(Actividad actividad, Date fecha, boolean realizado) {
         this.actividad = actividad;
         this.fecha = fecha;
-        this.prioridad = prioridad;
+        this.realizado = realizado;
     }
 
     public Actividad getActividad() {
@@ -23,7 +23,11 @@ public class BitacoraTacking {
         return fecha;
     }
 
-    public String getPrioridad() {
-        return prioridad;
+    public boolean isRealizado() {
+        return realizado;
+    }
+
+    public void setRealizado(boolean realizado) {
+        this.realizado = realizado;
     }
 }

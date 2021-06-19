@@ -1,4 +1,4 @@
-package com.ucreativa.tracking.repository;
+package com.ucreativa.tracking.repositories;
 
 import com.ucreativa.tracking.entities.Actividad;
 import com.ucreativa.tracking.entities.BitacoraTacking;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class MemoryRepository {
+public class MemoryRepository implements Repository {
 
     private List<BitacoraTacking> db;
 
@@ -16,8 +16,8 @@ public class MemoryRepository {
         this.db = new ArrayList<>();
     }
 
-    public void save(Actividad actividad, Date fecha, String prioridad) {
-        this.db.add(new BitacoraTacking(actividad, fecha, prioridad));
+    public void save(Actividad actividad, Date fecha, boolean realizado) {
+        this.db.add(new BitacoraTacking(actividad, fecha, realizado));
 
     }
 
@@ -26,7 +26,7 @@ public class MemoryRepository {
         SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
         for(BitacoraTacking item : db){
             lines.add(item.getActividad().getMeta()
-                    + " - Tiene prioridad: " + item.getPrioridad()
+                    + " - Tiene prioridad: " + item.isRealizado()
                     +" - " + format.format(item.getFecha()));
         }
         return lines;
