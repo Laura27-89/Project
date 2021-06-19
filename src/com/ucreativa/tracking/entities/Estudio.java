@@ -12,10 +12,12 @@ public class Estudio extends Actividad {
     }
 
     public String getMateria() {
+
         return materia;
     }
 
     public String getTarea() {
+
         return tarea;
     }
 }

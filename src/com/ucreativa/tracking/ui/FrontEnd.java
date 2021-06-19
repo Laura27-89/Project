@@ -23,6 +23,7 @@ public class FrontEnd extends JFrame {
         super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         super.setSize(400, 200);
         super.setLayout(new GridLayout(6, 3));
+
     }
     private void agregarComponente(Component componente){
         super.getContentPane().add(componente);
@@ -68,36 +69,43 @@ public class FrontEnd extends JFrame {
             }
         });
 
-        JButton salvar = new JButton("Salvar");
+        JButton salvar = new JButton("Trackear");
+        salvar.setForeground(Color.MAGENTA);
+
         salvar.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 TrackingService service = new TrackingService(new FileRepository());
-                service.save(txtMeta.getText(),
-                        txtPrioridad.getText(),
-                        txtDuracion.getText(),
-                        txtAnimo.getText(),
-                        txtEsEstudio.isSelected(),
-                        txtMateria.getText(),
-                        txtTarea.getText(),
-                        txtEjercicio.getText(),
-                        txtHogar.getText(),
-                        txtRealizado.isSelected());
+                try {
+                    service.save(txtMeta.getText(),
+                            txtPrioridad.getText(),
+                            txtDuracion.getText(),
+                            txtAnimo.getText(),
+                            txtEsEstudio.isSelected(),
+                            txtMateria.getText(),
+                            txtTarea.getText(),
+                            txtEjercicio.getText(),
+                            txtHogar.getText(),
+                            txtRealizado.isSelected());
 
-                txtMeta.setText("");
-                txtPrioridad.setText("");
-                txtDuracion.setText("");
-                txtAnimo.setText("");
-                txtEsEstudio.setText("");
-                txtMateria.setText("");
-                txtTarea.setText("");
-                txtEjercicio.setText("");
-                txtHogar.setText("");
-                txtRealizado.setText("");
+                    txtMeta.setText("");
+                    txtPrioridad.setText("");
+                    txtDuracion.setText("");
+                    txtAnimo.setText("");
+                    txtEsEstudio.setText("");
+                    txtMateria.setText("");
+                    txtTarea.setText("");
+                    txtEjercicio.setText("");
+                    txtHogar.setText("");
+                    txtRealizado.setText("");
 
-                //Mostrar pop up en la pantalla de los resultados
-                String reporte = String.join("\n",service.get());
-                JOptionPane.showMessageDialog(((JButton)e.getSource()).getParent(), reporte);
+                    //Mostrar pop up en la pantalla de los resultados
+                    String reporte = String.join("\n",service.get());
+                    JOptionPane.showMessageDialog(((JButton)e.getSource()).getParent(), reporte);
+
+                } catch (UIExceptionDuracion error) {
+                    JOptionPane.showMessageDialog(((JButton)e.getSource()).getParent(), error.getMessage());
+                }
             }
         });
 

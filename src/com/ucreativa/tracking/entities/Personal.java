@@ -12,10 +12,12 @@ public class Personal extends Actividad {
     }
 
     public String getEjercicio() {
+
         return ejercicio;
     }
 
     public String getHogar() {
+
         return hogar;
     }
 

@@ -15,6 +15,7 @@ public abstract class Actividad {
     }
 
     public String getMeta() {
+
         return meta;
     }
 
