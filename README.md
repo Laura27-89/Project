@@ -43,6 +43,7 @@ La clase **Personal** al igual que **Estudio** se le añadieron dos atributos m�
 ### BitacoraTracking
 
 Por último vamos analizar la clase BitacoraTracking, dicha clase no esta ligada o relacionada directamente de la clase padre Actividad, por eso observamos que no esta heredando ningún atributo, así teniendo sus propios atributos que serán agregados en el registro como información adicional a los atributos anteriores.
+
 Se utilizó los métodos **get** para que los atributos se muestren.
 
 <ins>Propósito de los atributos de la clase BitacoraTracking</ins>:
@@ -52,18 +53,20 @@ Se utilizó los métodos **get** para que los atributos se muestren.
 
 ![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/BT.jpg)
 
-##Ejemplo
+## Ejemplo
 
 En seguida se mostrará un ejemplo de como llenar la información con la explicacioón anterior:
 
 En la primera escena se registro la información en cada uno de los atributos, siendo:
-**Meta**: Estudio  |  **Ánimo**: Tranquila  |  **Prioridad**: Alta  |  **Duracion**: 7
+**Meta**: Estudio  |  **Ánimo**: Tranquila  |
+**Prioridad**: Alta  |  **Duracion**: 7  |
 **Es Estudio?**: Se seleccionó la opción porque la meta es en base a Estudio.
-**Materia**: Java  |  Tarea: Proyecto  |  **Realizado**: Se selccionó porque se cumplió los objetivos en el día.
+**Materia**: Java  |  **Tarea**: Proyecto  |
+**Realizado**: Se selccionó porque se cumplió los objetivos en el día.
 
 ** La opción <ins>Es Estudio?</ins>, al seleccionarlo se mostrará solo los atributos que estan relacionados con el <ins>Estudio (materia, tarea)</ins>, y al no seleccionarlo se desplegará los atributos de <ins>Personal</ins>.**
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg)
+![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg) width="600"
 
 El resultado de dicha información se registró de la siguiente manera:
 
@@ -73,9 +76,11 @@ El resultado de dicha información se registró de la siguiente manera:
 
 En esta escena se presentará la información en base a los atributos de la clase Personal:
 
-**Meta**: Ejercicio y Limpieza  |  **Ánimo**: Triste  |  **Prioridad**: Medio  |  **Duracion**: 0
+**Meta**: Ejercicio y Limpieza  |  **Ánimo**: Triste  |
+**Prioridad**: Medio  |  **Duracion**: 0  |
 **Es Estudio?**: No se seleccionó la opción porque la meta es en base a Personal.
-**Ejercicio**: 0  |  Hogar: 0  |  **Realizado**: No se seleccionó la opcioón porque no se cumplió la meta.
+**Ejercicio**: 0  |  Hogar: 0  |
+**Realizado**: No se seleccionó la opcioón porque no se cumplió la meta.
 
 **Al no haberse cumplido la meta se decidió llenar la información <ins>Ejercicio y Hogar</ins> en 0 porque no se completó ninguna de ellas**
 
@@ -89,7 +94,7 @@ El resultado de dicha información se registró de la siguiente manera:
 
 
 ### Importante
-Al ingrsar en la opción **Duración** informacioón que no sea un numero entero, se mostrará un error con la falla como el siguiente:
+Al ingrsar en la opción **Duración** informacioón que no sea un número entero, se mostrará un error con la falla como el siguiente:
 
 ![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/error.jpg)
 
