@@ -18,7 +18,8 @@ Como podemos observar la clase **Actividad** es la clase padre y hereda sus atri
 
 Se utilizó los métodos **get** para que los atributos se muestren y el método **set** para modificar los atributos que pueden llegar a cambiar en ciertos momentos.
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Actividad.jpg)
+<img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Actividad.jpg" />
+
 
 ### Estudio
 
@@ -28,7 +29,8 @@ En seguida podemos ver que en la clase **Estudio** se le agregaron dos atributos
 * **materia**: Se indica el tema del proyecto de estudio.
 * **tarea**: Se comenta cuál es la intención del estudio (repaso, examen, tarea etc.)
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Estudio.jpg)
+<img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Estudio.jpg" />
+
 
 ### Personal
 
@@ -38,7 +40,8 @@ La clase **Personal** al igual que **Estudio** se le añadieron dos atributos m�
 * **ejercicio**: Se le agregará los datos del tipo de ejercicios que se realizó (pesas, cardio, caminar, etc.)
 * **hogar**: Se comentará que labores del hogar o personales se efectuó.
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal.jpg)
+<img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal.jpg" />
+
 
 ### BitacoraTracking
 
@@ -51,7 +54,8 @@ Se utilizó los métodos **get** para que los atributos se muestren.
 * **fecha**: Java proporciona una clase de fecha bajo el paquete java.util, así es cómo obtendremos la fecha actual.
 * **realizado**: Es un atributo de tipo de dato, en donde se llama boolean y puede almacenar unicamente dos valores: verdadero o falso. Es decir que en esta opción se seleccionará si la meta se cumplió o no.
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/BT.jpg)
+<img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/BT.jpg" />
+
 
 ## Ejemplo
 
@@ -68,11 +72,9 @@ En la primera escena se registro la información en cada uno de los atributos, s
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg" />
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg) width="600"
-
 El resultado de dicha información se registró de la siguiente manera:
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/registro_estudio.jpg)
+<img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/registro_estudio.jpg" />
 
 **Se muestra True porque la meta fue exitosa**
 
@@ -86,11 +88,11 @@ En esta escena se presentará la información en base a los atributos de la clas
 
 **Al no haberse cumplido la meta se decidió llenar la información <ins>Ejercicio y Hogar</ins> en 0 porque no se completó ninguna de ellas**
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Personal.jpg)
+<img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Personal.jpg" />
 
 El resultado de dicha información se registró de la siguiente manera:
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal_registro.jpg)
+<img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal_registro.jpg" />
 
 **Se muestra False porque la meta no se completó**
 
@@ -98,7 +100,7 @@ El resultado de dicha información se registró de la siguiente manera:
 ### Importante
 Al ingrsar en la opción **Duración** informacioón que no sea un número entero, se mostrará un error con la falla como el siguiente:
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/error.jpg)
+<img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/error.jpg" />
 
 
 
