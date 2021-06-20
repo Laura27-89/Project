@@ -20,7 +20,6 @@ Como podemos observar la clase **Actividad** es la clase padre y hereda sus atri
 Se utilizó los métodos **get** para que los atributos se muestren y el método **set** para modificar los atributos que pueden llegar a cambiar en ciertos momentos.
 
 <img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Actividad.jpg" />
-<br>
 
 ### Estudio
 
@@ -42,7 +41,7 @@ La clase **Personal** al igual que **Estudio** se le añadieron dos atributos m�
 * **hogar**: Se comentará que labores del hogar o personales se efectuó.
 
 <img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal.jpg" />
-<br>
+
 
 ### BitacoraTracking
 
@@ -81,6 +80,7 @@ El resultado de dicha información se registró de la siguiente manera:
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/registro_estudio.jpg" />
 
 **Se muestra True porque la meta fue exitosa**
+<br>
 <br>
 
 En esta escena se presentará la información en base a los atributos de la clase Personal:
