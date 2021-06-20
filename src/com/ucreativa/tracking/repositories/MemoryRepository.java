@@ -24,10 +24,10 @@ public class MemoryRepository implements Repository {
     public List<String> get() {
         List<String> lines = new ArrayList<>();
         SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
-        for(BitacoraTacking item : db){
+        for (BitacoraTacking item : db) {
             lines.add(item.getActividad().getMeta()
                     + " - Tiene prioridad: " + item.isRealizado()
-                    +" - " + format.format(item.getFecha()));
+                    + " - " + format.format(item.getFecha()));
         }
         return lines;
     }

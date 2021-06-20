@@ -9,27 +9,28 @@ import java.awt.event.ActionEvent;
 
 public class FrontEnd extends JFrame {
 
-    public FrontEnd(String titulo){
+    public FrontEnd(String titulo) {
         super(titulo);
     }
 
-    public void build(){
+    public void build() {
         this.constructorPantalla();
         this.crearComponentes();
         super.setVisible(true);
     }
 
-    private void constructorPantalla(){
+    private void constructorPantalla() {
         super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         super.setSize(400, 200);
         super.setLayout(new GridLayout(6, 3));
 
     }
-    private void agregarComponente(Component componente){
+
+    private void agregarComponente(Component componente) {
         super.getContentPane().add(componente);
     }
 
-    private void crearComponentes(){
+    private void crearComponentes() {
 
         //Crear Lables
         JLabel lblMeta = new JLabel("Meta");
@@ -100,11 +101,11 @@ public class FrontEnd extends JFrame {
                     txtRealizado.setText("");
 
                     //Mostrar pop up en la pantalla de los resultados
-                    String reporte = String.join("\n",service.get());
-                    JOptionPane.showMessageDialog(((JButton)e.getSource()).getParent(), reporte);
+                    String reporte = String.join("\n", service.get());
+                    JOptionPane.showMessageDialog(((JButton) e.getSource()).getParent(), reporte);
 
                 } catch (UIExceptionDuracion error) {
-                    JOptionPane.showMessageDialog(((JButton)e.getSource()).getParent(), error.getMessage());
+                    JOptionPane.showMessageDialog(((JButton) e.getSource()).getParent(), error.getMessage());
                 }
             }
         });
