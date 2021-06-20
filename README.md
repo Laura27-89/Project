@@ -66,6 +66,8 @@ En la primera escena se registro la información en cada uno de los atributos, s
 
 ** La opción <ins>Es Estudio?</ins>, al seleccionarlo se mostrará solo los atributos que estan relacionados con el <ins>Estudio (materia, tarea)</ins>, y al no seleccionarlo se desplegará los atributos de <ins>Personal</ins>.**
 
+<img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg" />
+
 ![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg) width="600"
 
 El resultado de dicha información se registró de la siguiente manera:
