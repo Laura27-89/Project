@@ -62,6 +62,7 @@ Se utilizó los métodos **get** para que los atributos se muestren.
 En seguida se mostrará un ejemplo de como llenar la información con la explicacioón anterior:
 
 En la primera escena se registro la información en cada uno de los atributos, siendo:
+
 **Meta**: Estudio  |  **Ánimo**: Tranquila  |
 **Prioridad**: Alta  |  **Duracion**: 7  |
 **Es Estudio?**: Se seleccionó la opción porque la meta es en base a Estudio.
@@ -70,13 +71,16 @@ En la primera escena se registro la información en cada uno de los atributos, s
 
 ** La opción <ins>Es Estudio?</ins>, al seleccionarlo se mostrará solo los atributos que estan relacionados con el <ins>Estudio (materia, tarea)</ins>, y al no seleccionarlo se desplegará los atributos de <ins>Personal</ins>.**
 
+
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg" />
+
 
 El resultado de dicha información se registró de la siguiente manera:
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/registro_estudio.jpg" />
 
 **Se muestra True porque la meta fue exitosa**
+
 
 En esta escena se presentará la información en base a los atributos de la clase Personal:
 
@@ -88,13 +92,16 @@ En esta escena se presentará la información en base a los atributos de la clas
 
 **Al no haberse cumplido la meta se decidió llenar la información <ins>Ejercicio y Hogar</ins> en 0 porque no se completó ninguna de ellas**
 
+
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Personal.jpg" />
+
 
 El resultado de dicha información se registró de la siguiente manera:
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal_registro.jpg" />
 
 **Se muestra False porque la meta no se completó**
+
 
 
 ### Importante
