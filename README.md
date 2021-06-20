@@ -2,7 +2,7 @@
 Tracking es una aplicación de control de actividades, en el que nos ayudará a tener un mejor manejo diario de las metas que se desea realizar en el día.
 Este Tracking nos permitirá llevar un registro en una base de datos de cada uno de los objetivos que fueron agregados, se mostrará la meta que se insertó, la fecha con su respectiva hora y si se logró cumplir con lo deseado.
 
-A continuación, se les mostrará un grafico en base a UML del proyecto del control de actividades:
+A continuación, se les mostrará un grafico en base al UML del proyecto (Control de Actividades o Tracking):
 
 ![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/UML_Tracking.jpg)
 
