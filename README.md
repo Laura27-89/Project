@@ -5,6 +5,7 @@ Este Tracking nos permitirá llevar un registro en una base de datos de cada uno
 A continuación, se les mostrará un grafico en base al UML del proyecto (Control de Actividades o Tracking):
 
 ![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/UML_Tracking.jpg)
+<br>
 
 ### Actividad
 
@@ -19,7 +20,7 @@ Como podemos observar la clase **Actividad** es la clase padre y hereda sus atri
 Se utilizó los métodos **get** para que los atributos se muestren y el método **set** para modificar los atributos que pueden llegar a cambiar en ciertos momentos.
 
 <img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Actividad.jpg" />
-
+<br>
 
 ### Estudio
 
@@ -41,7 +42,7 @@ La clase **Personal** al igual que **Estudio** se le añadieron dos atributos m�
 * **hogar**: Se comentará que labores del hogar o personales se efectuó.
 
 <img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal.jpg" />
-
+<br>
 
 ### BitacoraTracking
 
@@ -55,7 +56,7 @@ Se utilizó los métodos **get** para que los atributos se muestren.
 * **realizado**: Es un atributo de tipo de dato, en donde se llama boolean y puede almacenar unicamente dos valores: verdadero o falso. Es decir que en esta opción se seleccionará si la meta se cumplió o no.
 
 <img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/BT.jpg" />
-
+<br>
 
 ## Ejemplo
 
@@ -70,17 +71,17 @@ En la primera escena se registro la información en cada uno de los atributos, s
 **Realizado**: Se selccionó porque se cumplió los objetivos en el día.
 
 ** La opción <ins>Es Estudio?</ins>, al seleccionarlo se mostrará solo los atributos que estan relacionados con el <ins>Estudio (materia, tarea)</ins>, y al no seleccionarlo se desplegará los atributos de <ins>Personal</ins>.**
-
+<br>
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg" />
-
+<br>
 
 El resultado de dicha información se registró de la siguiente manera:
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/registro_estudio.jpg" />
 
 **Se muestra True porque la meta fue exitosa**
-
+<br>
 
 En esta escena se presentará la información en base a los atributos de la clase Personal:
 
@@ -91,19 +92,19 @@ En esta escena se presentará la información en base a los atributos de la clas
 **Realizado**: No se seleccionó la opcioón porque no se cumplió la meta.
 
 **Al no haberse cumplido la meta se decidió llenar la información <ins>Ejercicio y Hogar</ins> en 0 porque no se completó ninguna de ellas**
-
+<br>
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Personal.jpg" />
-
+<br>
 
 El resultado de dicha información se registró de la siguiente manera:
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal_registro.jpg" />
 
 **Se muestra False porque la meta no se completó**
-
-
-
+<br>
+<br>
+<br>
 ### Importante
 Al ingrsar en la opción **Duración** informacioón que no sea un número entero, se mostrará un error con la falla como el siguiente:
 
