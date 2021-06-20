@@ -16,7 +16,7 @@ Como podemos observar la clase **Actividad** es la clase padre y hereda sus atri
 
 Se utilizó los métodos **get** para que los atributos se muestren y el método **set** para modificar los atributos que pueden llegar a cambiar en ciertos momentos.
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/Actividad.jpg)
+![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Actividad.jpg)
 
 En seguida podemos ver que en la clase "Estudio" se le agregaron dos atributos mas (materia, tarea), sin eliminar ni modificar los atributos que la clase "Actividad" le heredo.
 
@@ -24,7 +24,7 @@ En seguida podemos ver que en la clase "Estudio" se le agregaron dos atributos m
 * materia: Se indica el tema del proyecto de estudio.
 * tarea: Se comenta cuál es la intención del estudio (repaso, examen, tarea etc.)
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/Estudio.jpg)
+![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Estudio.jpg)
 
 La clase Personal al igual que Estudio se le añadieron dos atributos más (ejercicio, hogar) aparte de los que la clase padre (Actividad) le heredó.
 
@@ -32,7 +32,7 @@ La clase Personal al igual que Estudio se le añadieron dos atributos más (ejer
 * ejercicio: Se le agregará los datos del tipo de ejercicios que se realizó (pesas, cardio, caminar, etc.)
 * hogar: Se comentará que labores del hogar o personales se efectuó.
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/Personal.jpg)
+![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal.jpg)
 
 Por último vamos analizar la clase BitacoraTracking, dicha clase no esta ligada o relacionada directamente de la clase padre Actividad, por eso observamos que no esta heredando ningún atributo, así teniendo sus propios atributos que serán agregados en el registro como información adicional a los atributos anteriores.
 Se utilizó los métodos **get** para que los atributos se muestren.
@@ -42,7 +42,7 @@ Se utilizó los métodos **get** para que los atributos se muestren.
 * fecha: Java proporciona una clase de fecha bajo el paquete java.util, así es cómo obtendremos la fecha actual.
 * realizado: Es un atributo de tipo de dato, en donde se llama boolean y puede almacenar unicamente dos valores: verdadero o falso. Es decir que en esta opción se seleccionará si la meta se cumplió o no.
 
-![Image text](https://github.com/Laura27-89/Project/blob/main/BT.jpg)
+![Image text](https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/BT.jpg)
 
 
 
