@@ -117,5 +117,4 @@ Al ingrsar en la opción **Duración** informacioón que no sea un número enter
 <br>
 :rainbow: :star2:
 Deseamos que disfrutes la aplicación y puedas aprovecharla al máximo.
-Si tienes alguna consulta o comentario con gusto nos puedes escribir al siguiente correo: [Laura Ulate](mailto:laura.ulate.alfaro@ucreativa.com?subject=[GitHub]%20Source%20Han%20Sans)
-
+Si tienes alguna consulta o comentario con gusto nos puedes escribir al siguiente correo: (mailto:laura.ulate.alfaro@ucreativa.com)
