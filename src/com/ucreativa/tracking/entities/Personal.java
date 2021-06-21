@@ -5,10 +5,10 @@ public class Personal extends Actividad {
     private String ejercicio;
     private String hogar;
 
-    public Personal(String meta, String prioridad, int duracion, String animo, String ejercicio, String hogar) {
+    public Personal(String meta, String prioridad, int duracion, String animo, String ejercicio, String labor) {
         super(meta, prioridad, duracion, animo);
         this.ejercicio = ejercicio;
-        this.hogar = hogar;
+        this.hogar = labor;
     }
 
     public String getEjercicio() {
@@ -16,7 +16,7 @@ public class Personal extends Actividad {
         return ejercicio;
     }
 
-    public String getHogar() {
+    public String getLabor() {
 
         return hogar;
     }

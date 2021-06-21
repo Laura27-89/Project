@@ -14,7 +14,7 @@ Como podemos observar la clase **Actividad** es la clase padre y hereda sus atri
 <ins>Propósito de los atributos de la clase padre Actividad</ins>:
 * **meta**: Se agregará uno o mas objetivos  que desea cumplir en el día.
 * **prioridad**: Se le indicará de que nivel de importancia de dicho objetivo.
-* **duracion**: Se determinará cuanto tiempo se duró en los objectivos.
+* **duracion**: Se determinará cuanto tiempo se duró en los objectivos, agregar dicha informacion en minutos.
 * **animo**: Se podrá comentar el ánimo de haber realizado las metas.
 
 Se utilizó los métodos **get** para que los atributos se muestren y el método **set** para modificar los atributos que pueden llegar a cambiar en ciertos momentos.
@@ -38,7 +38,7 @@ La clase **Personal** al igual que **Estudio** se le añadieron dos atributos m�
 
 <ins>Propósito de los atributos de la clase Personal</ins>:
 * **ejercicio**: Se le agregará los datos del tipo de ejercicios que se realizó (pesas, cardio, caminar, etc.)
-* **hogar**: Se comentará que labores del hogar o personales se efectuó.
+* **labor**: Se comentará que labores del hogar o personales se efectuó.
 
 <img width = "350" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Personal.jpg" />
 
@@ -69,7 +69,7 @@ En la primera escena se registro la información en cada uno de los atributos, s
 **Materia**: Java  |  **Tarea**: Proyecto  |
 **Realizado**: Se selccionó porque se cumplió los objetivos en el día.
 
-** La opción <ins>Es Estudio?</ins>, al seleccionarlo se mostrará solo los atributos que estan relacionados con el <ins>Estudio (materia, tarea)</ins>, y al no seleccionarlo se desplegará los atributos de <ins>Personal</ins>.**
+**La opción <ins>Es Estudio?</ins>, al seleccionarlo se mostrará solo los atributos que estan relacionados con el <ins>Estudio (materia, tarea)</ins>, y al no seleccionarlo se desplegará los atributos de <ins>Personal</ins>.**
 <br>
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/Ejemplo_Estudio.jpg" />
@@ -88,8 +88,10 @@ En esta escena se presentará la información en base a los atributos de la clas
 **Meta**: Ejercicio y Limpieza  |  **Ánimo**: Triste  |
 **Prioridad**: Medio  |  **Duracion**: 0  |
 **Es Estudio?**: No se seleccionó la opción porque la meta es en base a Personal.
-**Ejercicio**: 0  |  Hogar: 0  |
-**Realizado**: No se seleccionó la opcioón porque no se cumplió la meta.
+**Ejercicio**: 0  |  Labor: 0  |
+**Realizado**: No se seleccionó la opción porque no se cumplió la meta.
+
+**La opción <ins>Es Estudio?</ins>, al no seleccionarse se mostraró solo los atributos que estan relacionados con la clase <ins>[Personal] (ejercicio, labor)</ins>.**
 
 **Al no haberse cumplido la meta se decidió llenar la información <ins>Ejercicio y Hogar</ins> en 0 porque no se completó ninguna de ellas**
 <br>
@@ -110,6 +112,11 @@ Al ingrsar en la opción **Duración** informacioón que no sea un número enter
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/error.jpg" />
 
+
+
+:rainbow: :star2:
+Deseamos que disfrutes la aplicación y puedas aprovecharla al máximo.
+Si tienes alguna consulta o comentario con gusto nos puedes escribir al siguiente correo: <a href="laura.ulate.alfaro@ucreativa.com"></a>
 
 
 

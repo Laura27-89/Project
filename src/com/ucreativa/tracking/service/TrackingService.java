@@ -19,9 +19,9 @@ public class TrackingService {
 
     public void save(String meta, String prioridad, String txtDuracion,
                      String animo, boolean isEstudio, String materia,
-                     String tarea, String ejercicio, String hogar, boolean realizado) throws UIExceptionDuracion {
+                     String tarea, String ejercicio, String labor, boolean realizado) throws UIExceptionDuracion {
 
-        int duracion = 0;
+        int duracion;
         try {
             duracion = Integer.parseInt(txtDuracion);
         } catch (NumberFormatException x) {
@@ -31,7 +31,7 @@ public class TrackingService {
         if (isEstudio) {
             actividad = new Estudio(meta, prioridad, duracion, animo, materia, tarea);
         } else {
-            actividad = new Personal(meta, prioridad, duracion, animo, ejercicio, hogar);
+            actividad = new Personal(meta, prioridad, duracion, animo, ejercicio, labor);
         }
         this.repository.save(actividad, new Date(), realizado);
     }

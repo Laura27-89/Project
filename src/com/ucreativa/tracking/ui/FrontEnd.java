@@ -21,7 +21,7 @@ public class FrontEnd extends JFrame {
 
     private void constructorPantalla() {
         super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        super.setSize(400, 200);
+        super.setSize(600, 200);
         super.setLayout(new GridLayout(6, 3));
 
     }
@@ -35,13 +35,13 @@ public class FrontEnd extends JFrame {
         //Crear Lables
         JLabel lblMeta = new JLabel("Meta");
         JLabel lblPrioridad = new JLabel("Prioridad");
-        JLabel lblDuracion = new JLabel("Duracion");
+        JLabel lblDuracion = new JLabel("Duración (minutos)");
         JLabel lblAnimo = new JLabel("Ánimo");
         JLabel lblEsEstudio = new JLabel("Es Estudio?");
         JLabel lblMateria = new JLabel("Materia");
         JLabel lblTarea = new JLabel("Tarea");
         JLabel lblEjercicio = new JLabel("Ejercicio");
-        JLabel lblHogar = new JLabel("Hogar");
+        JLabel lblLabor = new JLabel("Labor");
         JLabel lblRealizado = new JLabel("Realizado");
 
         //Crear textos
@@ -52,7 +52,7 @@ public class FrontEnd extends JFrame {
         JTextField txtMateria = new JTextField();
         JTextField txtTarea = new JTextField();
         JTextField txtEjercicio = new JTextField();
-        JTextField txtHogar = new JTextField();
+        JTextField txtLabor = new JTextField();
 
         JCheckBox txtRealizado = new JCheckBox();
         JCheckBox txtEsEstudio = new JCheckBox();
@@ -61,8 +61,8 @@ public class FrontEnd extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 lblEjercicio.setVisible(!txtEsEstudio.isSelected());
                 txtEjercicio.setVisible(!txtEsEstudio.isSelected());
-                lblHogar.setVisible(!txtEsEstudio.isSelected());
-                txtHogar.setVisible(!txtEsEstudio.isSelected());
+                lblLabor.setVisible(!txtEsEstudio.isSelected());
+                txtLabor.setVisible(!txtEsEstudio.isSelected());
                 lblMateria.setVisible(txtEsEstudio.isSelected());
                 txtMateria.setVisible(txtEsEstudio.isSelected());
                 lblTarea.setVisible(txtEsEstudio.isSelected());
@@ -86,7 +86,7 @@ public class FrontEnd extends JFrame {
                             txtMateria.getText(),
                             txtTarea.getText(),
                             txtEjercicio.getText(),
-                            txtHogar.getText(),
+                            txtLabor.getText(),
                             txtRealizado.isSelected());
 
                     txtMeta.setText("");
@@ -97,7 +97,7 @@ public class FrontEnd extends JFrame {
                     txtMateria.setText("");
                     txtTarea.setText("");
                     txtEjercicio.setText("");
-                    txtHogar.setText("");
+                    txtLabor.setText("");
                     txtRealizado.setText("");
 
                     //Mostrar pop up en la pantalla de los resultados
@@ -127,8 +127,8 @@ public class FrontEnd extends JFrame {
         this.agregarComponente(txtTarea);
         this.agregarComponente(lblEjercicio);
         this.agregarComponente(txtEjercicio);
-        this.agregarComponente(lblHogar);
-        this.agregarComponente(txtHogar);
+        this.agregarComponente(lblLabor);
+        this.agregarComponente(txtLabor);
         this.agregarComponente(lblRealizado);
         this.agregarComponente(txtRealizado);
         this.agregarComponente(salvar);
