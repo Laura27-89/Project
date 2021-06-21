@@ -107,13 +107,14 @@ El resultado de dicha información se registró de la siguiente manera:
 <br>
 <br>
 <br>
-### Importante
+### Importante :mega:
 Al ingrsar en la opción **Duración** informacioón que no sea un número entero, se mostrará un error con la falla como el siguiente:
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/error.jpg" />
 
-
-
+<br>
+<br>
+<br>
 :rainbow: :star2:
 Deseamos que disfrutes la aplicación y puedas aprovecharla al máximo.
 Si tienes alguna consulta o comentario con gusto nos puedes escribir al siguiente correo: <a href="laura.ulate.alfaro@ucreativa.com"></a>
