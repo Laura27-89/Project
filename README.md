@@ -117,4 +117,4 @@ Al ingrsar en la opción **Duración** informacioón que no sea un número enter
 <br>
 :rainbow: :star2:
 Deseamos que disfrutes la aplicación y puedas aprovecharla al máximo.
-Si tienes alguna consulta o comentario con gusto nos puedes escribir al siguiente correo: <laura.ulate.alfaro@ucreativa.com>
+Si tienes alguna consulta o comentario con gusto nos puedes escribir al siguiente correo: <mailto:laura.ulate.alfaro@ucreativa.com>
