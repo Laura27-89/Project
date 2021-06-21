@@ -108,7 +108,7 @@ El resultado de dicha información se registró de la siguiente manera:
 <br>
 <br>
 ### Importante :mega:
-Al ingrsar en la opción **Duración** informacioón que no sea un número entero, se mostrará un error con la falla como el siguiente:
+Al ingrsar en la opción **Duración** información que no sea un número entero, se mostrará un error con la falla como el siguiente:
 
 <img width = "600" src="https://github.com/Laura27-89/Project/blob/main/src/com/ucreativa/imagenes/error.jpg" />
 
@@ -117,4 +117,4 @@ Al ingrsar en la opción **Duración** informacioón que no sea un número enter
 <br>
 :rainbow: :star2:
 Deseamos que disfrutes la aplicación y puedas aprovecharla al máximo.
-Si tienes alguna consulta o comentario con gusto nos puedes escribir al siguiente correo: <mailto:laura.ulate.alfaro@ucreativa.com>
+Si tienes alguna consulta o comentario con gusto nos puedes escribir al siguiente correo: [laura.ulate.alfaro@ucreativa.com](mailto:laura.ulate.alfaro@ucreativa.com)
